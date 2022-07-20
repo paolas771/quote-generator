@@ -1,5 +1,17 @@
 $font-stack: 'Manrope', sans-serif;
+$bg-color: #202733;
+$bg-advice-box: #313A48;
+$color-quote: #cee3e9;
+$size-quote: 24px;
+$size-num: 11px;
+$neon-green: #53ffaa;
+
 
 body{
     font-family: $font-stack;
+    background: $bg-color;
+}
+.App{
+    width: 343px;
+    height: 347px;
 }

@@ -1,5 +1,11 @@
 body {
   font-family: "Manrope", sans-serif;
+  background: #202733;
+}
+
+.App {
+  width: 343px;
+  height: 347px;
 }
 
 /*# sourceMappingURL=styles.css.map */
