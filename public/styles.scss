@@ -2,8 +2,10 @@ $font-stack: 'Manrope', sans-serif;
 $bg-color: #202733;
 $bg-advice-box: #313A48;
 $color-quote: #cee3e9;
-$size-quote: 24px;
-$size-num: 11px;
+$size-quote-mobile: 24px;
+$size-quote-desktop: 28px;
+$size-num-mobile: 11px;
+$size-num-desktop: 13px;
 $neon-green: #53ffaa;
 $breakpoint: 768px;
 
@@ -22,6 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background: $bg-advice-box;
     box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
     border-radius: 10px;
@@ -31,3 +34,32 @@ body{
         margin-top: 223px;
     }
 }
+.adviceNumber{
+    color: $neon-green;
+    font-size: $size-num-mobile;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 40px;
+    @media (min-width: $breakpoint){
+        font-size: $size-num-desktop;
+        margin-top: 48px;
+    }
+}
+.quote{
+    color: $color-quote;
+    font-size: $size-quote-mobile;
+    width: 295px;
+    margin-top: 24px;
+    @media (min-width: $breakpoint){
+        width: 444px;
+    }
+}
+.diceButton{
+    width: 64px;
+    height: 64px;
+    background: $neon-green;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: -50px;
+}
+

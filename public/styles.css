@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   background: #313A48;
   box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
   border-radius: 10px;
@@ -23,6 +24,41 @@ body {
     height: 364px;
     margin-top: 223px;
   }
+}
+
+.adviceNumber {
+  color: #53ffaa;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .adviceNumber {
+    font-size: 13px;
+    margin-top: 48px;
+  }
+}
+
+.quote {
+  color: #cee3e9;
+  font-size: 24px;
+  width: 295px;
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  .quote {
+    width: 444px;
+  }
+}
+
+.diceButton {
+  width: 64px;
+  height: 64px;
+  background: #53ffaa;
+  border: none;
+  border-radius: 50%;
+  margin-bottom: -50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
