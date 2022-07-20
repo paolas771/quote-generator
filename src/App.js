@@ -4,6 +4,8 @@ export default function App() {
   const [quote, setQuote] = React.useState([])
   const [slipID, setSlipID] = React.useState(1)
   const [windowSize, setWindowSize] = React.useState(window.innerWidth)
+
+
   React.useEffect(() =>{
     fetch(`https://api.adviceslip.com/advice/${slipID}`)
     .then(res => res.json())
@@ -15,7 +17,6 @@ export default function App() {
       setWindowSize(window.innerWidth)
     })
   }, [])
-
 
   function getQuote(){
     const randomNumber = Math.floor(Math.random() * 224)
