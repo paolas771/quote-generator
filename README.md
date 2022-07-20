@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repo](https://github.com/paolas771/quote-generator)
-- Live Site URL: [quote Generator](https://your-live-site-url.com)
+- Live Site URL: [quote Generator](https://quotegeneratorfm.netlify.app/)
 
 ## My process
 
