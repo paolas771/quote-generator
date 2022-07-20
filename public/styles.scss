@@ -5,6 +5,7 @@ $color-quote: #cee3e9;
 $size-quote: 24px;
 $size-num: 11px;
 $neon-green: #53ffaa;
+$breakpoint: 768px;
 
 
 body{
@@ -14,4 +15,19 @@ body{
 .App{
     width: 343px;
     height: 347px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $bg-advice-box;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    border-radius: 10px;
+    @media (min-width: $breakpoint){
+        width: 540px;
+        height: 364px;
+        margin-top: 223px;
+    }
 }
